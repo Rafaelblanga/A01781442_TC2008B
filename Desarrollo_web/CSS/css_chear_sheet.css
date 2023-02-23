@@ -24,7 +24,7 @@
 }
 
 #back-img{
-    background-image: url("/Desarrollo_web/Imagenes/lionel-messi-4k-hd-download-wallpaper-preview.jpeg");
+    background-image: url("../Desarrollo_web/Imagenes/lionel-messi-4k-hd-download-wallpaper-preview.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
