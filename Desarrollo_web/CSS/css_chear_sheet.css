@@ -1,0 +1,104 @@
+#border{
+    border: 11px solid rgb(73, 70, 229);
+}
+
+#border-left{
+    border-left: 11px solid rgb(73, 70, 229);
+}
+
+#border-right{
+    border-right: 11px solid rgb(73, 70, 229);
+}
+
+#border-top{
+    border-top: 11px solid rgb(73, 70, 229);
+}
+
+#border-bottom{
+    border-bottom: 11px solid rgb(73, 70, 229);
+}
+
+#border-radius{
+    border: 11px solid rgb(73, 70, 229);
+    border-radius: 11px;
+}
+
+#color{
+    color: rgb(73, 70, 229);
+}
+
+#font{
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+#font-family{
+    font-family: "Fira Sans", serif;
+}
+
+#font-style{
+    font-style: italic;
+}
+
+#font-weight{
+    font-weight: bold;
+}
+
+#width{
+    background-color: rgb(98, 7, 184);
+    color: white;
+    width: 200px;
+}
+
+#height{
+    background-color: rgb(98, 7, 184);
+    color: white;
+    height:300px;
+    width: 300px;
+}
+
+#list-style{
+    list-style-type: "\1F30B";
+}
+
+#margin{
+    margin: 70px;
+    color: rebeccapurple;
+}
+
+#padding{
+    padding: 250px;
+    color: rebeccapurple;
+}
+
+#overflow{
+    width: 100px;
+    height: 70px;
+    overflow: scroll;
+    color: rebeccapurple;
+}
+
+#display{
+    display: inline-flex;
+    color: rebeccapurple;
+}
+
+#dis1{
+    background-color: blueviolet;
+    color: white;
+}
+
+#dis2{
+    background-color: rgb(8, 47, 241);
+    color: white;
+}
+
+#position{
+    position: relative;
+    top: 40px; left: 40px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#filter{
+    filter: blur(.8px);
+}
