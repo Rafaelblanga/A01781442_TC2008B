@@ -23,6 +23,16 @@
     border-radius: 11px;
 }
 
+#back-img{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/216/42/445/lionel-messi-4k-hd-download-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
 #color{
     color: rgb(73, 70, 229);
 }
