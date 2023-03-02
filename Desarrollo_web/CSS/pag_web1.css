@@ -1,0 +1,167 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #25404C;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 3;
+    
+  }
+  
+  .header h3 {
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+  }
+  
+  .menu {
+    margin: 0;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  
+  /* remove the white spaces in this section */
+  .content {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #B97E2D;
+    position: relative;
+    top: 50px;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    right: 0px;
+    height: 300px;
+    z-index: 2;
+  }
+  
+  .content h2 {
+    margin: 0 0 20px;
+    padding-top: 10%;
+    color: white;
+  }
+  
+  .content h4 {
+    margin: 0;
+    color: white;
+  }
+
+  .newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25404C;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 1;
+    padding-top: 420px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .newsletter h3{
+    padding-right: 50px;
+  }
+
+    .newsletter input{
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 10px;
+    }
+
+    .newsletter input:hover{
+        color: white;
+        background-color: #25404C;
+        font-size: large;
+    }
+    /*resize my images */
+    .imagen1 img{
+        padding-top: 460px;
+        width: 200px;
+        height: 200px;
+        padding-left: 50px;
+      }
+
+      .imagen2 img{
+        padding-top: 480px;
+        width: 300px;
+        height: 200px;
+        padding-left: 50px;
+      }
+
+      .imagen3 img{
+        padding-top: 460px;
+        width: 200px;
+        height: 200px;
+        padding-left: 50px;
+      }
+      
+      .imagenes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .css{
+        max-width: 200px;
+        padding-left: 50px;
+        
+      }
+      .js{
+        max-width: 200px;
+        padding-left: 50px;
+      }
+      .html{
+        max-width: 200px;
+        padding-left: 50px;
+
+      }
+
+      .textos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    /*create a footer*/
+    .footer{
+    background-color: #25404C;
+    height: 50px;
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    color: white;
+    font-size: smaller;
+    font-weight: lighter;
+    padding-left: 700px;
+    }
+      
+
+  
