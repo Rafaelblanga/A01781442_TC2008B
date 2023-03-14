@@ -5,10 +5,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Score : MonoBehaviour
 {
 
+    [SerializeField] TMP_Text tmpObj;
+    [SerializeField] int maxScore;
+    [SerializeField] createballs creator;
     int score;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +24,20 @@ public class Score : MonoBehaviour
     public void AddPoints(int amount)
     {
         score += amount;
-        Debug.Log("New score: " + score);
+        tmpObj.text = "Score: " + score;
+        //Debug.Log("New score: " + score);
+
+        if (score >= maxScore)
+        {
+            Finish();
+
+        }
     }
+
+    void Finish()
+    {
+        
+        creator.StopSpawning();
+        tmpObj.text += "\n\n YOU WON!!!";
+}
 }

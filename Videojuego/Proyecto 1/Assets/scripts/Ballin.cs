@@ -22,5 +22,6 @@ public class Ballin : MonoBehaviour
     void OnTriggerEnter2D()
     {
         scoreObj.AddPoints(1);
+        
     }
 }

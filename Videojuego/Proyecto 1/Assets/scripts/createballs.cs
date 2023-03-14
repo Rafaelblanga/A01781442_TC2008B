@@ -18,7 +18,12 @@ public class createballs : MonoBehaviour
     void DropBall(){
         var position = new Vector3(Random.Range(-10.0f, 10.0f), 4, Random.Range(-10.0f, 10.0f));
        GameObject obj =  Instantiate(ball,position,Quaternion.identity);
-       Destroy(obj, 6.0f);
+       //Destroy(obj, 6.0f);
 
+
+    }
+
+    public void StopSpawning(){
+        CancelInvoke("DropBall");
     }
 }
